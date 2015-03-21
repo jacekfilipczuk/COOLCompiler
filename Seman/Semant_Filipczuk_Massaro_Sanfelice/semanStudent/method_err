@@ -1,0 +1,28 @@
+--method error
+
+
+class A {
+    a : Int;
+};
+
+class B inherits A {
+    b : Int;
+};
+
+class C inherits A {
+    c : Int;
+};
+
+class D inherits B {
+    d : Int;
+};
+
+
+
+
+class Main {
+
+    bad_main(): SELF_TYPE{
+	self
+    };
+};

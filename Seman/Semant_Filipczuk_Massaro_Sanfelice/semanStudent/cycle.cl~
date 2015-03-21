@@ -1,0 +1,12 @@
+--cicli nel grafo delle classi
+
+class A {
+    x : Int;
+};
+
+class Main {
+
+    main(): SELF_TYPE{
+	self
+    };
+};
